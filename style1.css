@@ -1,0 +1,164 @@
+#logo{
+    display: flex;
+    padding: 34px 23px;
+    height: 100px;
+    width: 100px;
+}
+ul li:hover{
+    color: black;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    top: 0px;position: sticky;
+
+}
+#logo img{
+    height: 70px;
+   margin :6px 6px;
+}
+ #navbar ul{
+    display: flex;
+
+}
+#navbar::before{
+ content:"" ;
+ background-color: black;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ height: 70%;
+ width: 100%;
+ z-index: -1;
+ opacity: 0.4;
+
+
+}
+#navbar ul li{
+    list-style:none;
+    font-size :1.5rem;
+
+}
+
+#navbar ul li a{
+    color:white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    background-color:white;
+    color:black;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 230px;
+    height: 628px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content:"";
+    background: url(https://cdn.pixabay.com/photo/2017/11/25/17/17/sandwich-2977251_640.jpg);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+#home h1{
+    margin-top: 2px;
+    color: white;
+    text-align: center;
+    font-family: 'bree serif', serif;
+    
+   
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:  'bree serif', serif;
+}
+.h-primary{
+    font-family: 'bree serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+    margin-top: 0px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+
+.h-secondary{
+    font-family: 'bree serif', serif;
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.center{
+text-align: center;
+}
+
+
+/*services section*/
+#services{
+display:list-item;
+margin:34px;
+ }
+
+#services .box{
+border: 4px solid brown;
+padding: 34px;
+margin: 2px 55px;
+border-radius: 28px;
+background: #f2f2f2;
+margin-bottom: 20px;
+
+}
+#services .box img{
+height: 160px;
+margin: auto;
+display: block
+
+}
+#services .box p{
+font-family:  'bree serif', serif;
+font-size: 1rem;
+}
+#client-section{
+height: 100px;
+}
+#client-section::before{
+content: "";
+position: absolute;
+background: url(https://cdn.pixabay.com/photo/2015/03/07/13/55/pasta-663096_1280.jpg);
+width: 100%;
+height: 60%;
+z-index: -1;
+opacity: 0.5;
+}
+#clients{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.client-item{
+padding: 34px;
+}
+#clients img{
+height: 124px;
+
+}
